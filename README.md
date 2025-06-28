@@ -1,4 +1,4 @@
-# 📘 Meus Resumos Front-end
+# 📘 Meus Resumos
 
 Este projeto é uma página de resumos visuais que reúne explicações básicas sobre **HTML** e **CSS**. O layout apresenta os resumos com ícones representativos, textos explicativos e links diretos para conteúdos complementares no Notion.
 
