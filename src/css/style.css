@@ -24,7 +24,7 @@ body {
 
 }
 
-.container-resumos .icon {
+.resumo-info .icon {
     display: flex;
     font-size: 80px;
     color: var(--cor-branca);
