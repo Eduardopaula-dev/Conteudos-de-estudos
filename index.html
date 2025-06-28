@@ -4,29 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
     <title>Resumos</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <h1>EP</h1>
-        </div>
-        <div class="titulo">
-            <h1>Meus Resumos</h1>
-        </div>
+    <header class="cabecalho">
+        <h1>Meus Resumos</h1>
     </header>
     <main>
-        <div>
-            <i class="devicon devicon-html5-plain-wordmark"></i>
+        <div class="container-resumos">
+            <div class="resumo-info">
+                <i class="icon devicon-html5-plain-wordmark"></i>
+                <h2 class="titulo-resumo">HTML Básico</h2>
+                <p class="resumo-texto">HTML é a linguagem usada para estruturar o conteúdo de páginas na web. Ela usa tags para marcar elementos como títulos, parágrafos, links e imagens.</p>
+                <p class="link-notion"><a href="https://www.notion.so/RESUMO-HTML-BASICO-1d3141475b9c8054933fc0962c0131a9?source=copy_link" target="_blank">🔗Ver no Notion</a></p>
+            </div>
+
+            <div class="resumo-info">
+                <i class="icon devicon-css3-plain-wordmark"></i>
+                <h2 class="titulo-resumo">CSS Básico</h2>
+                <p class="resumo-texto">CSS é a linguagem usada para estilizar páginas na web. Com ela, você define cores, fontes, tamanhos e posicionamento dos elementos. As regras CSS são aplicadas usando seletores, propriedades e valores. </p>
+                <p class="link-notion"><a href="https://www.notion.so/RESUMO-CSS-BASICO-1e0141475b9c801f87c1c846d937160d?source=copy_link" target="_blank">🔗Ver no Notion</a></p>
+            </div>
         </div>
-        <h2>HTML Básico</h2>
-        <p>HTML (HyperText Markup Language) é a linguagem usada para estruturar páginas web
-        </p>
-        <p><a href="https://www.notion.so/RESUMO-HTML-BASICO-1d3141475b9c8054933fc0962c0131a9?source=copy_link">Teste</a></p>
     </main>
 </body>
 

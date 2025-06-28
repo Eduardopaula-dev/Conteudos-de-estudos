@@ -1,0 +1,10 @@
+:root {
+    --fundo: #282828;
+    --cor-branca: #fff;
+    --cor-escura: #131384;
+}
+
+:root {
+    --fonte-primaria: "Poppins", sans-serif;
+    --fonte-secundaria: "Raleway", sans-serif;
+}

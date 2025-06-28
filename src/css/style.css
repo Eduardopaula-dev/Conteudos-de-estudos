@@ -1,0 +1,52 @@
+body {
+    background-color: var(--fundo);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.cabecalho h1 {
+    font-family: var(--fonte-primaria);
+    font-size: 45px;
+    color: var(--cor-branca);
+}
+
+.container-resumos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.container-resumos .icon {
+    display: flex;
+    font-size: 80px;
+    color: var(--cor-branca);
+    justify-content: center;
+}
+
+.resumo-info .titulo-resumo {
+    color: var(--cor-escura);
+    font-family: var(--fonte-primaria);
+}
+
+.resumo-info .resumo-texto {
+    max-width: 400px;
+    color: var(--cor-branca);
+    font-family: var(--fonte-secundaria);
+    padding-top: 10px;
+}
+
+.resumo-info .link-notion {
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
