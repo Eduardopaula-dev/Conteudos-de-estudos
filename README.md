@@ -46,6 +46,19 @@ Este projeto é uma página de resumos visuais que reúne explicações básicas
 
 ---
 
+## 🙏 Agradecimentos
+
+Gostaria de expressar minha profunda gratidão aos professores **Ricardo** e **Roberto** pelo incrível trabalho que realizam ensinando programação de forma clara, prática e motivadora.
+
+Graças aos ensinamentos deles, consegui evoluir meus conhecimentos em desenvolvimento web e aplicar na prática tudo que aprendi.
+
+🔗 Recomendo fortemente que vocês sigam o canal deles no YouTube:  
+[Dev em Dobro no YouTube](https://www.youtube.com/@DevemDobro/featured)
+
+🎓 E não deixem de fazer o curso — é um investimento que vale cada segundo!
+
+---
+
 ## 👨‍💻 Autor
 
 Desenvolvido por **Eduardo** como parte do aprendizado em desenvolvimento front-end.  
