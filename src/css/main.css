@@ -2,19 +2,6 @@ body {
     background-color: var(--fundo);
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: center;
-    padding-top: 60px;
-    padding-bottom: 100px;
-}
-
-.cabecalho h1 {
-    font-family: var(--fonte-primaria);
-    font-size: 45px;
-    color: var(--cor-branca);
-}
-
 .container-resumos {
     display: flex;
     justify-content: center;
@@ -24,23 +11,43 @@ body {
 
 }
 
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.titulo h1 {
+    font-family: var(--fonte-primaria);
+    font-size: 45px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color: var(--cor-branca);
+}
+
 .resumo-info .icon {
     display: flex;
     font-size: 80px;
     color: var(--cor-branca);
     justify-content: center;
+    transition: 0.2s;
 }
 
 .resumo-info .titulo-resumo {
     color: var(--cor-escura);
     font-family: var(--fonte-primaria);
+    letter-spacing: 1px;
 }
 
 .resumo-info .resumo-texto {
-    max-width: 400px;
+    max-width: 450px;
     color: var(--cor-branca);
+    font-size: 20px;
+    letter-spacing: 1px;
     font-family: var(--fonte-secundaria);
     padding-top: 10px;
+    transition: 0.2s;
 }
 
 .resumo-info .link-notion {
@@ -48,5 +55,21 @@ body {
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 30px;
+    transition: 0.2s;
 }
 
+.resumo-info .icon,
+.resumo-info .resumo-texto,
+.resumo-info .link-notion {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.resumo-info:hover .icon,
+.resumo-info:hover .titulo-resumo,
+.resumo-info:hover .resumo-texto a,
+.resumo-info:hover a {
+    color: var(--cor-escura);
+}

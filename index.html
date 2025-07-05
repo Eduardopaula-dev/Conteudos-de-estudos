@@ -12,33 +12,73 @@
 
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/main.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
-    <title>Resumos</title>
+    <title>Eduardo de Paula Oliveira - Desenvolvedor Frontend</title>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <h1>Meus Resumos</h1>
+    <header class="header">
+        <div class="container-header">
+            <h1 class="logo">EP</h1>
+            <nav>
+                <input id="menu-hamburguer" type="checkbox">
+
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="#resumos">Resumos</a></li>
+                    <li><a href="#codigos">Códigos</a></li>
+                    <li><a href="#exercicios">Exercícios</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="container-resumos">
+        <div class="titulo">
+            <h1>Meus Resumos</h1>
+        </div>
+        <section class="container-resumos" id="resumos">
             <div class="resumo-info">
                 <i class="icon devicon-html5-plain-wordmark"></i>
-                <h2 class="titulo-resumo">HTML Básico</h2>
-                <p class="resumo-texto">HTML é a linguagem usada para estruturar o conteúdo de páginas na web. Ela usa tags para marcar elementos como títulos, parágrafos, links e imagens.</p>
-                <p class="link-notion"><a href="https://www.notion.so/RESUMO-HTML-BASICO-1d3141475b9c8054933fc0962c0131a9?source=copy_link" target="_blank">🔗Ver no Notion</a></p>
+                <h2 class="titulo-resumo">🌐 HTML Básico</h2>
+                <p class="resumo-texto"><a href="https://www.notion.so/RESUMO-HTML-BASICO-1d3141475b9c8054933fc0962c0131a9?source=copy_link" target="_blank" class="resumo-texto">HTML é a linguagem usada para estruturar o conteúdo de páginas na web. Ela usa tags para marcar elementos como títulos, parágrafos, links e imagens.</a></p>
+                <p class="link-notion"><a href="https://www.notion.so/RESUMO-HTML-BASICO-1d3141475b9c8054933fc0962c0131a9?source=copy_link" target="_blank" class="link-notion">🔗Ver no Notion</a></p>
+            </div>
+
+            <div class="resumo-info">
+                <i class="icon devicon-html5-plain-wordmark"></i>
+                <h2 class="titulo-resumo">🌐 HTML Intermediário</h2>
+                <p class="resumo-texto"><a href="https://www.notion.so/RESUMO-HTML-INTERMEDIARIO-1f5141475b9c80f292f3ed312488e089?source=copy_link" target="_blank" class="resumo-texto">HTML em nível intermediário, utilizando tags semânticas, organização de conteúdo com divs e seções, além de formulários funcionais e melhoria na acessibilidade. Um passo além do básico para criar páginas mais organizadas, compreensíveis e profissionais.</a></p>
+                <p class="link-notion"><a href="https://www.notion.so/RESUMO-HTML-INTERMEDIARIO-1f5141475b9c80f292f3ed312488e089?source=copy_link" target="_blank" class="link-notion">🔗Ver no Notion</a></p>
             </div>
 
             <div class="resumo-info">
                 <i class="icon devicon-css3-plain-wordmark"></i>
-                <h2 class="titulo-resumo">CSS Básico</h2>
-                <p class="resumo-texto">CSS é a linguagem usada para estilizar páginas na web. Com ela, você define cores, fontes, tamanhos e posicionamento dos elementos. As regras CSS são aplicadas usando seletores, propriedades e valores. </p>
-                <p class="link-notion"><a href="https://www.notion.so/RESUMO-CSS-BASICO-1e0141475b9c801f87c1c846d937160d?source=copy_link" target="_blank">🔗Ver no Notion</a></p>
+                <h2 class="titulo-resumo">🎨 CSS Básico</h2>
+                <p class="resumo-texto"><a href="https://www.notion.so/RESUMO-CSS-BASICO-1e0141475b9c801f87c1c846d937160d?source=copy_link" target="_blank" class="resumo-texto">CSS é a linguagem usada para estilizar páginas na web. Com ela, você define cores, fontes, tamanhos e posicionamento dos elementos. As regras CSS são aplicadas usando seletores, propriedades e valores.</a> </p>
+                <p class="link-notion"><a href="https://www.notion.so/RESUMO-CSS-BASICO-1e0141475b9c801f87c1c846d937160d?source=copy_link" target="_blank" class="link-notion">🔗Ver no Notion</a></p>
             </div>
-        </div>
+        </section>
+
+        <section class="container-resumos">
+            <div class="titulo" id="codigos">
+                <h1>Códigos dos Resumos</h1>
+            </div>
+
+        </section>
+
+        <section class="container-resumos">
+            <div class="titulo" id="exercicios">
+                <h1>Exercícios</h1>
+            </div>
+        </section>
     </main>
 </body>
 

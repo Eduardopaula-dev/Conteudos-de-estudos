@@ -41,8 +41,8 @@ Este projeto é uma página de resumos visuais que reúne explicações básicas
 
 ## 🔧 Melhorias futuras
 
-- [ ] Incluir animações suaves com `:hover`
-
+- [✅] Incluir animações suaves com `:hover`
+- [✅] Incluir menu `hamburguer` no responsivo
 
 ---
 
