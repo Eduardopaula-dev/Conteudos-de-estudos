@@ -1,0 +1,32 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+ul {
+    list-style-image: url('./image/icon.png');
+
+    background-color: orange;
+
+    list-style: square inside url('./image/icon.png');
+}
+
+ol {
+    list-style-image: url('./image/icon.png');
+
+    background-color: aqua;
+
+    list-style: square inside url('./image/icon.png');
+}
+
+ul li  {
+    border: 1px solid black;
+    padding: 20px;
+   
+}
+
+ol li  {
+    border: 1px solid black;
+    padding: 20px;
+   
+}
