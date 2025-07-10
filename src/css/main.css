@@ -16,6 +16,7 @@ body {
     justify-content: center;
     padding-top: 60px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .titulo h1 {
@@ -44,10 +45,21 @@ body {
     max-width: 450px;
     color: var(--cor-branca);
     font-size: 20px;
-    letter-spacing: 1px;
+    text-align: justify;
+    text-align-last: justify;
     font-family: var(--fonte-secundaria);
     padding-top: 10px;
     transition: 0.2s;
+}
+
+.resumo-info .final-linha {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.resumo-info .tags-semanticas {
+    color: var(--cor-escura);
 }
 
 .resumo-info .link-notion {
