@@ -69,3 +69,59 @@ body {
     transition: 0.2s;
 }
 
+
+
+/* COR DOS TIUTLOS E DO HOVER DAS SEÇÕES */
+
+.cor-resumo {
+    color: var(--cor-resumo);
+}
+
+.cor-codigo {
+    color: var(--cor-codigo);
+}
+
+.cor-exercicio {
+    color: var(--cor-exercicio);
+}
+
+.tags-codigos {
+    color: var(--cor-codigo);
+}
+
+.tags-exercicios {
+    color: var(--cor-exercicio);
+}
+
+.info .hover-resumos {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.info:hover .hover-resumos {
+    color: var(--cor-resumo);
+}
+
+.info .hover-codigo {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.info:hover .hover-codigo {
+    color: var(--cor-codigo);
+}
+
+.info .hover-exercicio {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.info:hover .hover-exercicio {
+    color: var(--cor-exercicio);
+}
