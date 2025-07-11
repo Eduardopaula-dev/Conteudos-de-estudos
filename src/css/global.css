@@ -25,9 +25,9 @@ body {
 .efeito-neon {
     background-color: transparent;
     text-shadow:
-        0 0 5px #423f3f,
-        0 0 10px #423f3f,
-        0 0 20px #423f3f;
+        0 0 5px #424040,
+        0 0 10px #424040,
+        0 0 20px #424040;
 
 }
 
@@ -69,18 +69,3 @@ body {
     transition: 0.2s;
 }
 
-.info .icon,
-.info .texto,
-.info .link {
-    transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-}
-
-.info:hover .icon,
-.info:hover .resumo,
-.info:hover .texto a,
-.info:hover a {
-    color: var(--cor-escura);
-}
