@@ -1,0 +1,35 @@
+/* selector::pseudo-elemento{
+    propriedade: valor;
+} */
+
+.first-letter::first-letter {
+    color: coral;
+}
+
+.first-line::first-line{
+    color:aquamarine
+}
+
+li::marker {
+    color: red;
+    font-size: 40px;
+}
+
+.ex-imagem-before::before{
+  content: url(logo.jpg);
+  content: ""; 
+  background-color: url(logo.jpg) center center no-repeat;
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+}
+
+.ex-imagem-after::after{
+    content: url(logo.jpg);
+    content: ""; 
+    background-color: url(logo.jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+  }
+
