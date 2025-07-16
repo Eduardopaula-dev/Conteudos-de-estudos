@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info .texto {
+        font-size: 16px;
+        padding: 0 20px;
+        text-align: justify; 
+        text-align-last: auto; 
+    }
+
+    .info .final-linha {
+        display: inline;
+        justify-content: unset;
+        padding-bottom: 0;
+
+    }
+}
