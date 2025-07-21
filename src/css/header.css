@@ -39,8 +39,8 @@
 }
 
 .header nav li a:hover {
-    background-color: var(--cor-escura);
-    color: var(--cor-branca);
+    background-color: var(--cor-resumo);
+    color: var(--cor-branca);;
 }
 
 .header .menu {

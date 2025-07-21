@@ -6,6 +6,10 @@
         text-align: center;
     }
 
+    .efeito-neon {
+        font-size: 30px; 
+      }
+
     .info .texto {
         font-size: 16px;
         padding: 0 20px;
