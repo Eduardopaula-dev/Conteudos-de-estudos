@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.auto {
+    align-self: auto;
+}
+
+.flex-star {
+    align-self: flex-start;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.center {
+    align-self: center;
+}
+
+.stretch {
+    align-self: stretch;
+}

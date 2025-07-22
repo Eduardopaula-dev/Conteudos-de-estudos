@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.flex-0 {
+    flex: 0;
+}
+
+.flex-1 {
+    flex: 1 1 100px;
+}
+
+.flex {
+    flex: 1;
+}
