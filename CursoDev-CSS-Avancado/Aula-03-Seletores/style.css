@@ -1,0 +1,11 @@
+div > p {
+    color: red;
+}
+
+div + p {
+    color: aquamarine;
+}
+
+a[target="_blank"]{
+    color: red;
+}
