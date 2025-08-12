@@ -1,0 +1,53 @@
+body {
+    font-family: 'Public Sans' sans-serif;
+    color: #fff;
+    
+}
+
+.texto-1 {
+    font-weight: 700;
+}
+
+.texto-2 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+.container div {
+    width: 335px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+    background-size: cover;
+    
+}
+
+.rome {
+    background-image: url(../images/6\ 1.jpg);
+    width: 100%;
+    
+}
+
+.boat {
+    background-image: url(../images/boat\ 1.png);
+    width: 100%;
+}
+
+.sand {
+    background-image: url(../images/4\ 1.png);
+    width: 100%;
+}
+
+.starry {
+    background-image: url(../images/5\ 1.png);
+    width: 100%;
+}
