@@ -1,0 +1,6 @@
+:root {
+    --cor-fundo: hsl(216, 83%, 16%);
+    --cor-barra-lateral: hsl(225, 56%, 21%);
+    --cor-titulo: hsl(233, 93%, 66%);
+    --cor-white: hsl(0, 0%, 100%);
+}

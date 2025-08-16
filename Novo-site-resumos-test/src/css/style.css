@@ -1,0 +1,54 @@
+body {
+    background-color: var(--cor-fundo);
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 2px;
+    color: var(--cor-titulo);
+}
+
+.container-lateral {
+    display: flex;
+    height: 100vh;
+}
+
+.barra-lateral {
+    width: 320px;
+    height: 480px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: var(--cor-barra-lateral);
+}
+
+.barra-lateral ul {
+    margin-left: 20px;
+}
+
+.barra-lateral .menu-btn {
+    background-color: var(--cor-barra-lateral);
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--cor-white);
+}
+
+.barra-lateral img {
+    width: 12px;
+    height: 10px;
+    margin-left: 20px;
+}
+
+.barra-lateral .submenu {
+    margin: 10px 0 0 40px;
+}
+
+.barra-lateral .submenu li {
+    margin-top: 5px;
+}
+
+.barra-lateral .submenu li a {
+    color: var(--cor-white);
+}
