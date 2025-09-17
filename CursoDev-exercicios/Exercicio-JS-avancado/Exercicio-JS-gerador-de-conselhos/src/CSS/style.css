@@ -1,0 +1,57 @@
+body {
+    background-color: var(--neutral-dark);
+    font-family: "Manrope", sans-serif;
+    height: 100vh;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;    
+}
+
+.container .gerador {
+    background-color: var(--neutral-medium);
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.conteudo .titulo {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-soft);
+    font-size: 9px ;
+    letter-spacing: 2px;
+    padding: 10px 10px 12px;
+    
+    
+}
+
+.conteudo .texto {
+    color: #fff;
+    padding: 0px 30px 20px;
+}
+
+.gerador .divider-link .divider {
+    width: 100%;
+    padding: 0px 0px 25px;
+}
+
+.gerador .icon-link {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-soft);
+    transform: translatex(195%);
+}
+
+.gerador .icon-link:hover {
+    color: var(--primary-soft);
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--primary-soft );
+}
