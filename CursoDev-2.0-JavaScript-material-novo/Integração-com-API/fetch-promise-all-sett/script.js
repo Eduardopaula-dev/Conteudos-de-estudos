@@ -75,7 +75,7 @@ const loadMultipleMoviesAllSettled = async (moivesIds) => {
 
 const moivesIdsInvalid = [
     "2baf70d1-42bb-4437-b551-e5fed5a87abe", // Castle in the Sky 
-    "12cfb892-0ac0-4c5b-94af-521852e46d6a", // Grave of the Fireflies 
+    "id-invalido", //erro simulado
     "58611129-2dbc-4a81-a72f-77ddfc1b1b49" // My Neighbor Totoro
 ]
 
