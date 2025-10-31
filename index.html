@@ -1,182 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/logo-eduardo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href="./src/images/logo-eduardo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/header.css">
-    <link rel="stylesheet" href="src/css/global.css">
-    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-
-    <title>Eduardo de Paula Oliveira - Desenvolvedor Frontend</title>
+    <title>Eduardo de P. Oliveira - Desenvolvedor Frontend</title>
 </head>
-
 <body>
-    <header class="header">
-        <div class="container-header">
-            <h1 class="logo">EP</h1>
-            <nav>
-                <input id="menu-hamburguer" type="checkbox">
-
-                <label for="menu-hamburguer">
-                    <div class="menu">
-                        <span class="hamburguer"></span>
-                    </div>
-                </label>
-                <ul>
-                    <li><a href="#resumos">Resumos</a></li>
-                    <li><a href="#codigos">Códigos</a></li>
-                    <li><a href="#exercicios">Exercícios</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <h1>MEUS RESUMOS</h1>
     </header>
-    <main>
-        <div class="titulo">
-            <h1 class="cor-resumo efeito-neon">Meus Resumos</h1>
-        </div>
-        <section class="container" id="resumos">
-            <div class="info">
-                <i class="icon hover-resumos devicon-html5-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🌐 HTML Básico</h2>
-                <p class="texto"><a href="https://www.notion.so/RESUMO-HTML-BASICO-1d3141475b9c8054933fc0962c0131a9?source=copy_link" target="_blank" class="texto hover-resumos">HTML é a linguagem usada para estruturar o conteúdo de páginas na web. Ela usa tags para marcar elementos como títulos, parágrafos, links <span class="final-linha">e imagens.</span></a></p>
-                <p class="link"><a href="https://www.notion.so/RESUMO-HTML-BASICO-1d3141475b9c8054933fc0962c0131a9?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos devicon-html5-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🌐 HTML Intermediário</h2>
-                <p class="texto"><a href="https://www.notion.so/RESUMO-HTML-INTERMEDIARIO-1f5141475b9c80f292f3ed312488e089?source=copy_link" target="_blank" class="texto hover-resumos">HTML em nível intermediário, utilizando tags semânticas, organização de conteúdo com divs e seções, além de formulários funcionais e melhoria na acessibilidade. Um passo além do básico para criar páginas mais organizadas, <span class="final-linha">compreensíveis e profissionais.</span></a></p>
-                <p class="link"><a href="https://www.notion.so/RESUMO-HTML-INTERMEDIARIO-1f5141475b9c80f292f3ed312488e089?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos devicon-html5-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🌐 HTML Avançado</h2>
-                <p class="texto"><a href="https://www.notion.so/RESUMO-HTML-AVAN-ADO-205141475b9c80798b36e1b5cc454237?source=copy_link" target="_blank" class="texto hover-resumos">Este resumo aborda conceitos mais profundos do HTML, como estrutura semântica completa, otimização para SEO, uso de atributos ARIA para acessibilidade, e integração com conteúdos externos.É voltado para quem já domina o básico e busca escrever códigos mais limpos, acessíveis e preparados para projetos profissionais. Ideal para reforçar boas práticas no <span class="final-linha">desenvolvimento de páginas modernas.</span></a></p>
-                <p class="link"><a href="https://www.notion.so/RESUMO-HTML-AVAN-ADO-205141475b9c80798b36e1b5cc454237?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🎨 CSS Básico</h2>
-                <p class="texto"><a href="https://www.notion.so/RESUMO-CSS-BASICO-1e0141475b9c801f87c1c846d937160d?source=copy_link" target="_blank" class="texto hover-resumos">CSS é a linguagem usada para estilizar páginas na web. Com ela, você define cores, fontes, tamanhos e posicionamento dos elementos. As regras CSS são aplicadas usando seletores, <span class="final-linha">propriedades e valores.</span></a> </p>
-                <p class="link"><a href="https://www.notion.so/RESUMO-CSS-BASICO-1e0141475b9c801f87c1c846d937160d?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos  devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🎨 CSS Intermediário</h2>
-                <p class="texto"><a href="https://www.notion.so/RESUMO-HTML-INTERMEDIARIO-1f5141475b9c80f292f3ed312488e089?source=copy_link" target="_blank" class="texto hover-resumos">Resumo criado para reforçar os principais conceitos de CSS intermediário, como seletores avançados, pseudo-classes, media queries, unidades relativas e variáveis CSS. Organizado de forma clara e prática para revisão e consulta <span class="final-linha">rápida durante o desenvolvimento.</span></a></p>
-                <p class="link"><a href="https://www.notion.so/RESUMO-CSS-BASICO-1e0141475b9c801f87c1c846d937160d?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos  devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🎨 CSS Avançado</h2>
-                <p class="texto"><a href="https://www.notion.so/RESUMO-CSS-AVAN-207141475b9c80f68458e126354de456?source=copy_link" target="_blank" class="texto hover-resumos">CSS Avançado é o nível onde você domina animações, responsividade, personalização com variáveis e layouts mais complexos. Ele permite criar interfaces mais interativas, modernas e adaptáveis para diferentes tamanhos de tela, com atenção aos detalhes visuais e à <span class="final-linha">experiência do usuário.</span></a></p>
-                <p class="link"><a href="https://www.notion.so/RESUMO-CSS-AVAN-207141475b9c80f68458e126354de456?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos  devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🎨 CSS Avançado - Flexbox</h2>
-                <p class="texto"><a href="https://www.notion.so/FLEXBOX-213141475b9c80039a0ec97647e5e8d0?source=copy_link" target="_blank" class="texto hover-resumos"> Flexbox é uma técnica CSS avançada que facilita o layout flexível e responsivo, organizando itens em linhas ou colunas. Ele permite controlar alinhamento, espaçamento e distribuição dos elementos dentro de um contêiner, adaptando-se dinamicamente ao tamanho da tela. Ideal para criar designs que se ajustam facilmente a diferentes dispositivos.</a></p>
-                <p class="link"><a href="https://www.notion.so/FLEXBOX-213141475b9c80039a0ec97647e5e8d0?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos  devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🎨 CSS Avançado - Grid</h2>
-                <p class="texto"><a href="https://www.notion.so/GRID-213141475b9c800681eee99bedc3400b?source=copy_link" target="_blank" class="texto hover-resumos"> CSS Grid é um sistema avançado de layout que organiza conteúdo em linhas e colunas, formando uma grade bidimensional. Ele oferece controle preciso sobre o posicionamento e o tamanho dos elementos, facilitando a criação de layouts complexos e responsivos de forma intuitiva. É perfeito para estruturar páginas com múltiplas áreas alinhadas tanto horizontal <span class="final-linha">quanto verticalmente.</span></a></p>
-                <p class="link"><a href="https://www.notion.so/GRID-213141475b9c800681eee99bedc3400b?source=copy_link" target="_blank" class="link hover-resumos">🔗Ver no Notion</a></p>
-            </div>
-        </section>
-
-        <div class="titulo" id="codigos">
-            <h1 class="efeito-neon cor-codigo">Códigos dos Resumos</h1>
-        </div>
-        <section class="container">
-            <div class="info">
-                <i class="icon hover-codigo devicon-html5-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-codigo">🌐 HTML Básico</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-HTML-basico" target="_blank" class="texto hover-codigo">Conjunto de exemplos práticos com foco em HTML intermediário, utilizando tags semânticas, estrutura organizada e aplicação de formularios acessíveis. Os códigos ajudam a fixar conceitos como <strong class="tags-codigos">section, article,</strong> além de reforçar a importância da acessibilidade e da semântica no <span class="final-linha">HTML.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-HTML-basico" target="_blank" class="link hover-codigo">🔗Código no GitHub</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-codigo devicon-html5-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-codigo">🌐 HTML Intermediário</h2>
-                <p class="texto "><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-intermediario" target="_blank" class="texto hover-codigo">Coleção de códigos focados em conceitos intermediários de HTML, como uso de tags semânticas, formulários completos, tabelas estruturadas e aplicação de atributos globais.
-                Os exemplos servem como base prática para projetos mais organizados, acessíveis e bem <span class="final-linha">estruturados.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-intermediario" target="_blank" class="link hover-codigo">🔗Código no GitHub</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos devicon-html5-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-resumo">🌐 HTML Avançado</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-HTML-avancado" target="_blank" class="texto hover-resumos">Códigos pensados para explorar o HTML em um nível mais avançado, com foco em acessibilidade, estrutura semântica completa e integração com recursos externos. São exemplos que mostram como criar páginas mais funcionais, otimizadas para SEO e preparadas para acessibilidade real. Ideal para quem já domina o básico e quer aplicar boas práticas <span class="final-linha">modernas no desenvolvimento web.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-HTML-avancado" target="_blank" class="link hover-resumos">🔗Código no GitHub</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-codigo devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-codigo">🎨 CSS Básico</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-basico" target="_blank" class="texto hover-codigo">Conjunto de exemplos práticos de estilização com CSS, abordando propriedades essenciais como cores, margens, fontes e alinhamento. O objetivo é mostrar como transformar um HTML simples em algo visualmente agradável. Inclui boas práticas, organização do código e <span class="final-linha">responsividade básica.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-basico" target="_blank" class="link hover-codigo">🔗Código no Github</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-codigo devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-codigo">🎨 CSS Intermediário</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-intermediario" target="_blank" class="texto hover-codigo">Conjunto de exemplos que exploram melhor o uso de seletores, pseudo-classes, unidades relativas e estilização de formulários. Os códigos ajudam a organizar melhor o layout com Flexbox simples e reforçam a importância da responsividade básica. Ideal para quem já <span class="final-linha">domina o essencial do CSS.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-intermediario" target="_blank" class="link hover-codigo">🔗Código no GitHub</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos  devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-codigo">🎨 CSS Avançado</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-Avancado" target="_blank" class="texto hover-resumos">Contém exemplos práticos de CSS avançado, com foco em animações, transições, uso de variáveis, pseudo-classes e pseudo-elementos. Os códigos exploram formas de criar interações ricas, efeitos visuais e estilos mais dinâmicos e reutilizáveis. Ideal para quem quer entender como aplicar recursos modernos de CSS na <span class="final-linha">prática</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-Avancado" target="_blank" class="link hover-resumos">🔗Código GitHub</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos  devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-codigo">🎨 CSS Avançado - Flexbox</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-Avancado-Flexbox" target="_blank" class="texto hover-resumos">Reúne exemplos de CSS Flexbox, focando na criação de layouts flexíveis, alinhamentos precisos e adaptação a diferentes tamanhos de tela. Os códigos exploram combinações e comportamentos do Flexbox em cenários práticos, facilitando o entendimento de como aplicar essa técnica em projetos modernos e <span class="final-linha">responsivos.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-Avancado-Flexbox" target="_blank" class="link hover-resumos">🔗Código GitHub</a></p>
-            </div>
-
-            <div class="info">
-                <i class="icon hover-resumos  devicon-css3-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-codigo">🎨 CSS Avançado - Flexbox</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-avancado-Grid" target="_blank" class="texto hover-resumos">Apresenta exemplos de CSS avançado utilizando Grid para construir layouts estruturados em duas dimensões. Os códigos demonstram como distribuir e organizar elementos de forma precisa, criando composições complexas e responsivas com mais controle e simplicidade. Ideal para treinar a lógica visual e a organização de interfaces <span class="final-linha">modernas.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-avancado-Grid" target="_blank" class="link hover-resumos">🔗Código GitHub</a></p>
-            </div>
-        </section>
-        
-        <div class="titulo" id="exercicios">
-            <h1 class="efeito-neon cor-exercicio">Exercícios</h1>
-        </div>
-        <section class="container">
-            <div class="info">
-                <i class="icon hover-exercicio devicon-html5-plain-wordmark"></i>
-                <h2 class="efeito-neon cor-exercicio">🌐 HTML Básico</h2>
-                <p class="texto"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-intermediario" target="_blank" class="texto hover-exercicio">Conjunto de exercícios introdutórios com foco em estruturação de páginas, uso de tags como <strong class="tags-exercicios">h1, p e img.</strong> O objetivo é praticar a marcação correta e entender a hierarquia dos elementos.Ideal para iniciantes fixarem os fundamentos do HTML de forma simples e <span class="final-linha">prática.</span></a></p>
-                <p class="link"><a href="https://github.com/Eduardo2324q/Conteudos-de-estudos/tree/main/CursoDev-CSS-intermediario" target="_blank" class="link hover-exercicio">🔗Código no GitHub</a></p>
-            </div>
-        </section>
-    </main>
+    <aside class="conatiner-lateral">
+        <nav class="barra-lateral">
+            <ul>
+                <li>
+                    <button class="menu-btn">📚 Resumos</button>
+                    <a href="#"><img src="./src/images/Seta.png" alt="Seta"></a>
+                    <ul class="submenu">
+                        <li><a href="#">🌐 HTML</a></li>
+                        <li><a href="#">🎨 CSS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn">⌨️ Códigos dos Resumos</button>
+                    <a href="#"><img src="./src/images/Seta.png" alt="Seta"></a>
+                    <ul class="submenu">
+                        <li><a href="#">🌐 HTML</a></li>
+                        <li><a href="#">🎨 CSS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn">📝 Exercícios dos Resumos</button>
+                    <a href="#"><img src="./src/images/Seta.png" alt="Seta"></a>
+                    <ul class="submenu">
+                        <li><a href="#">🌐 HTML</a></li>
+                        <li><a href="#">🎨 CSS</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <footer>
+        <p>Desenvolvido por Eduardo de Paula • 2025</p>
+        <a href="https://github.com/Eduardo2324q" target="_blank">GitHub</a>
+      </footer>
 </body>
-
 </html>

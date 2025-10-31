@@ -1,12 +1,6 @@
 :root {
-    --fundo: #282828;
-    --cor-branca: #fff;
-    --cor-resumo: #0088ff;
-    --cor-codigo: #00aeff;
-    --cor-exercicio: #00f2f2;
-}
-
-:root {
-    --fonte-primaria: "Poppins", sans-serif;
-    --fonte-secundaria: "Raleway", sans-serif;
+    --cor-fundo: hsl(216, 83%, 16%);
+    --cor-barra-lateral: hsl(225, 56%, 21%);
+    --cor-titulo: hsl(233, 93%, 66%);
+    --cor-white: hsl(0, 0%, 100%);
 }
