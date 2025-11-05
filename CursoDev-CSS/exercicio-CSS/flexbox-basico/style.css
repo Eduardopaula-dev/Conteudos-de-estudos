@@ -1,0 +1,25 @@
+/* 📝 Instruções do Exercício
+Crie um container flexbox que centraliza 3 caixas na horizontal. */
+
+.container {
+    display: flex;
+    /* ativa o flexbox */
+    justify-content: center;
+    /* centraliza horizontalmente */
+    gap: 20px;
+    /* espaço entre as caixas */
+    margin-top: 50px;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    /* centraliza o texto verticalmente */
+    justify-content: center;
+    /* centraliza o texto horizontalmente */
+    border: 2px solid blue;
+    font-weight: bold;
+}
