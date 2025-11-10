@@ -1,0 +1,22 @@
+.container {
+    height: 300px;
+    /* altura fixa do container */
+    display: flex;
+    /* ativa o flexbox */
+    align-items: center;
+    /* centraliza verticalmente as caixas */
+    gap: 20px;
+    /* espaço entre as caixas */
+    border: 2px solid black;
+}
+
+.caixa {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    font-weight: bold;
+}
