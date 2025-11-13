@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* 3 colunas iguais */
+    grid-template-rows: 80px 1fr 60px;
+    /* 3 linhas: header, conteúdo, footer */
+    grid-template-areas:
+        "header header header"
+        "menu content content"
+        "footer footer footer";
+    height: 100vh;
+    /* ocupa toda a tela */
+    gap: 10px;
+    /* espaço entre as áreas */
+}
+
+.header {
+    grid-area: header;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.content {
+    grid-area: content;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
