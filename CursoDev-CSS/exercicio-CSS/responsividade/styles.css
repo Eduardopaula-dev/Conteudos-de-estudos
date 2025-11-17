@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    flex: 1;
+    padding: 40px;
+    background-color: #4a90e2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        /* empilha em coluna */
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        /* ocupa toda a largura */
+    }
+}
