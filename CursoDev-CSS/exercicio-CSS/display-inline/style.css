@@ -1,0 +1,6 @@
+li {
+    display: inline;
+    /* Coloca os itens lado a lado */
+    margin-right: 15px;
+    /* Espaço entre eles */
+}
