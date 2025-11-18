@@ -1,0 +1,14 @@
+/* Seletor de tag */
+p {
+    color: blue;
+}
+
+/* Seletor de classe */
+.destaque {
+    color: green;
+}
+
+/* Seletor de id */
+#unico {
+    color: red;
+}
