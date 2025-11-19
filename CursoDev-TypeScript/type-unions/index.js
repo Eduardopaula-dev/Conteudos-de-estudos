@@ -1,11 +1,8 @@
-function clientId(id: string | number) {
-    console.log(`O id do cliente é: ${id}`);
+function clientId(id) {
+    console.log("O id do cliente \u00E9: ".concat(id));
 }
-
 clientId(23);
 clientId("12");
-
-
 //Exercicios
 /* 📝 Exercício 1 — Verificar status
 Crie uma função chamada verificarStatus que:
@@ -18,18 +15,15 @@ o próprio texto → se o valor for string
 usar union type no parâmetro
 usar tipagem no retorno(string)
 usar condição baseada no tipo recebido */
-
-function verificarStatus (status: boolean | string) : string {
-    if(typeof status === "boolean") {
-        return "Seu status está ok"
-    } else {
-        return "Seu status dando ERRO"
+function verificarStatus(status) {
+    if (typeof status === "boolean") {
+        return "Seu status está ok";
+    }
+    else {
+        return "Seu status dando ERRO";
     }
 }
-
 console.log(verificarStatus(true));
-
-
 /* 📝 Exercício 2 — Formatar valor
 Crie uma função chamada formatarValor que:
 receba um valor que pode ser number OU boolean
@@ -44,19 +38,16 @@ Exemplo esperado:
 formatarValor(20);        // "Número recebido: 20"
 formatarValor(true);      // "Valor booleano: true"
  */
-
-function formatarValor (valor: number | boolean) : string {
+function formatarValor(valor) {
     if (typeof valor === "number") {
-        return `Número recebido: ${valor}`
-    } else {
-        return `Valor Booleano: ${valor}`;
+        return "N\u00FAmero recebido: ".concat(valor);
+    }
+    else {
+        return "Valor Booleano: ".concat(valor);
     }
 }
-
 console.log(formatarValor(21));
 console.log(formatarValor(false));
-
-
 /* # Exercício - Usando Union Types em TypeScript
 
 Neste exercício, você vai praticar o uso de **Union Types** em **TypeScript**, que permitem que uma variável possa assumir mais de um tipo. O desafio consiste em criar uma variável que aceite tanto números quanto strings, atribuindo valores diferentes em momentos distintos e exibindo-os no console.
@@ -75,11 +66,8 @@ Neste exercício, você vai praticar o uso de **Union Types** em **TypeScript**,
 - Depois, atribua um valor string e também exiba no console.
 - Utilize `console.log` para mostrar os dois resultados.
 **Objetivo final:** reforçar o entendimento sobre como utilizar **Union Types em TypeScript** para lidar com variáveis que podem assumir mais de um tipo, mantendo a segurança de tipos. */
-
-let valor: string | number 
-
-valor = 231
-console.log(`Valor numérico: ${valor}`);
-
-valor = "João"
-console.log(`Valor de string: ${valor}`);
+var valor;
+valor = 231;
+console.log("Valor num\u00E9rico: ".concat(valor));
+valor = "João";
+console.log("Valor de string: ".concat(valor));
