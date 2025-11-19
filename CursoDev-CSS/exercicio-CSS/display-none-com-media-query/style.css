@@ -1,0 +1,12 @@
+.botao {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Esconde o botão em telas menores que 600px */
+@media (max-width: 600px) {
+    .botao {
+        display: none;
+    }
+}
