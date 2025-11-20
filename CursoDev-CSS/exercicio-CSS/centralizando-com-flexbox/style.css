@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Ocupa a tela toda */
+    margin: 0;
+    /* Remove margens padrão */
+}
+
+.caixa {
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 8px;
+    font-size: 18px;
+}
