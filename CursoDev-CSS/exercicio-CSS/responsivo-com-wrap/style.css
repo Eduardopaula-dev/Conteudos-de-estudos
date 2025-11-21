@@ -1,0 +1,13 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Faz os cards quebrarem linha */
+    gap: 10px;
+}
+
+.card {
+    background-color: lightblue;
+    border: 1px solid #333;
+    padding: 20px;
+    flex: 1 1 150px; /* Largura mínima 150px, cresce conforme espaço */
+    text-align: center;
+}
