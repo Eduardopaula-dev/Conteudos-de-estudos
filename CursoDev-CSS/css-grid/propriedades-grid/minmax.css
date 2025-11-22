@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+
+    /* Forma menos usada
+    grid-template-columns: minmax(300px, 800px) minmax(200px, 1fr) minmax(300px, 1000px); */
+
+    /* Forma mais usada/abreviada */
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+}
+
+.container div {
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    background-color: blueviolet;
+}

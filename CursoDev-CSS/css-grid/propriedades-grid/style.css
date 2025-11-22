@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    /* Menos usado
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 100px 100px;*/
+
+    /* Forma abreviada e melhor de ser usada
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px); */
+
+    /* Forma mais abreviada juntando o columns e rows */
+    grid-template: repeat(4, 100px) / repeat(2, 1fr);
+
+    /* Propriedade gap */
+    gap: 20px;
+
+    /* ou
+
+    column-gap: 40px;
+    row-gap: 20px; */
+}
+
+.container div {
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    background-color: blueviolet;
+}
