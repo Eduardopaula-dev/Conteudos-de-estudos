@@ -109,15 +109,6 @@ function saudar(nome: string , saudacao?: string) {
 saudar("João");
 saudar("Ana", "Bom dia, ");
 
-//Versão curta/melhorada 
-function saudar2(nome: string, saudacao: string = "Olá") {
-    console.log(`${saudacao}, ${nome}`);
-}
-
-saudar2("Diogo");                 // Usa "Olá"
-saudar2("Marcos", "Bom dia");       // Usa "Bom dia"
-
-
 /* 📝 Exercício 3 — Objeto com 2 propriedades opcionais
 
 Crie um type Filme com:

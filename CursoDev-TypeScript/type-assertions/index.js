@@ -1,14 +1,9 @@
-const button = document.getElementById("button") as HTMLButtonElement;
-
-button.addEventListener("click", event => {
-    const mouseEvent = event as MouseEvent
-    return mouseEvent
+var button = document.getElementById("button");
+button.addEventListener("click", function (event) {
+    var mouseEvent = event;
+    return mouseEvent;
 });
-
-
-
 // <--------------------- Exercícios ------------------ >
-
 /* ✅ Exercício 1 — Garantindo tipo de um valor desconhecido
 
 Você recebe um valor com tipo unknown.
@@ -19,15 +14,11 @@ retorna essa string em letras maiúsculas
 
 📌 Dica:
 Use as string antes de chamar .toUpperCase(). */
-
-function processarValor (valor: unknown) {
-    const valores = valor as string;
-    return valores.toUpperCase()
+function processarValor(valor) {
+    var valores = valor;
+    return valores.toUpperCase();
 }
-
 console.log(processarValor("Bem vindos"));
-
-
 /* ✅ Exercício 2 — Manipulando elemento do DOM
 
 Simule que você pegou um elemento pelo ID:
@@ -41,13 +32,8 @@ depois acesse a propriedade .innerText
 
 📌 Dica:
 Use as HTMLHeadingElement. */
-
-
-const elemento = document.getElementById("titulo") as HTMLHeadingElement
-
+var elemento = document.getElementById("titulo");
 console.log(elemento.innerText);
-
-
 /* ✅ Exercício 3 — Convertendo número salvo como string
 
 Você tem uma variável:
@@ -62,13 +48,9 @@ retorne o número final
 
 📌 Objetivo:
 Treinar a ideia de que assertion não converte valores magicamente, você ainda precisa transformar depois. */
-
-let idade: any = "25"
-
-function converterIdade(idade: any) : number {
-    const idadeString = idade as string
-    const idadeNumero = Number(idadeString)
-    return idadeNumero
+var idade = "25";
+function converterIdade(idade) {
+    var converter = Number(idade);
+    return converter;
 }
-
-console.log(converterIdade);
+console.log((converterIdade(idade)));
