@@ -1,0 +1,79 @@
+/* Reset simples */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #0077cc;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #ddd;
+    padding: 15px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* explícito */
+    flex-wrap: wrap;
+    /* quebra linha */
+    gap: 15px;
+    align-content: flex-start;
+    /* garante bom alinhamento em várias linhas */
+    justify-content: center;
+    /* centraliza os cards horizontalmente */
+    padding: 20px;
+}
+
+.card {
+    flex: 1 1 200px;
+    background-color: #eee;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #0077cc;
+    color: white;
+}
