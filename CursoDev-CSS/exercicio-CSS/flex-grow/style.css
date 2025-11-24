@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.item1 {
+    background-color: royalblue;
+    flex-grow: 2;
+    /* ocupa o DOBRO do espaço */
+}
+
+.item2 {
+    background-color: seagreen;
+    flex-grow: 1;
+    /* cresce normalmente */
+}
+
+.item3 {
+    background-color: tomato;
+    flex-grow: 1;
+    /* cresce normalmente */
+}
