@@ -1,0 +1,16 @@
+.caixa {
+    width: 200px;
+    /* largura */
+    height: 100px;
+    /* altura */
+    background-color: #e6f0ff;
+    /* cor de fundo clara */
+    padding: 20px;
+    /* espaçamento interno */
+    border: 3px solid blue;
+    /* borda azul */
+    margin: 30px;
+    /* espaço externo */
+    box-sizing: border-box;
+    /* inclui padding + borda no cálculo do tamanho */
+}
