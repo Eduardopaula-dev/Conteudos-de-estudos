@@ -57,7 +57,7 @@ strings
 (duas instâncias diferentes usando o mesmo tipo genérico) */
 
 interface Lista<T> {
-    itens: T[]
+    itens: T[];
 }
 
 const minhaListaNumbers: Lista<number> = {
@@ -70,7 +70,7 @@ const minhaListaNumbers: Lista<number> = {
 
 const minhaListaStrings: Lista<string> = {
     itens: [],
-    adicionar(item: number) {
+    adicionar(item: string) {
         this.itens.push(item);
     }
 };
