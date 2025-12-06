@@ -1,5 +1,6 @@
 import MyFirstComponent from './components/MyFirstComponent'
 import MyFirstClassComponent from './components/MyFirstClassComponents'
+import Saudacao from './components/ExercicioComponent'
 import './App.css'
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <MyFirstComponent />
 
       <MyFirstClassComponent />
+
+      <Saudacao />
     </>
   )
 }
