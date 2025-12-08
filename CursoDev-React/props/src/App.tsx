@@ -1,11 +1,15 @@
 import Tasks from './components/Task'
+import {Perfil, Films} from './components/ExerciciosPai'
 import './App.css'
 
 function App() {
   return (
     <>
-     <h1>Lista de Tarefas</h1>
-     <Tasks></Tasks>
+    {/* <Tasks></Tasks> */}
+
+    {/* <Perfil/> */}
+
+    <Films/>
     </>
   )
 }
