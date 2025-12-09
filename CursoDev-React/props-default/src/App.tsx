@@ -1,4 +1,5 @@
 import Tasks from './components/Task'
+import { Greeting, Product, Card } from './components/ExercicioPai'
 import './App.css'
 
 function App() {
@@ -6,7 +7,13 @@ function App() {
 
   return (
     <>
-      <Tasks/>
+      {/* <Tasks/> */}
+
+      {/* <Greeting/> */}
+
+      {/* <Product/> */}
+
+      <Card/>
     </>
   )
 }
