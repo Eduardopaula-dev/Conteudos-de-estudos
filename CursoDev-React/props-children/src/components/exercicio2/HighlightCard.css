@@ -1,0 +1,10 @@
+.cardhighlight {
+    width: 300px;
+    background-color: purple;
+    border: 2px solid black;
+    color: white;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
