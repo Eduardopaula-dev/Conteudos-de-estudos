@@ -19,9 +19,9 @@ function App() {
     setCount(0);
   } */
 
-  const counter = () => {
+ /*  const counter = () => {
     setCount(prev => prev + 1);
-  }
+  } */
 
 
 
